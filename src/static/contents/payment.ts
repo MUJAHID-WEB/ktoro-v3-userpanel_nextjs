@@ -1,0 +1,88 @@
+export const shippingInformationContent = 
+    {
+        titleEn:"Shipping Information",
+        titleAr:"معلومات",
+        deliveryEn:"Home Delivery 28",
+        deliveryAr:"Home Delivery 28",
+        freeDeliveryEn:"Free Delivery Above 300 Riyals",
+        freeDeliveryAr:"التوصيل مجاني فوق 300 ريال",
+        leftForFreeDeliveryEn:"208.5 Riyals Above Left Of Free Shipping",
+        leftForFreeDeliveryAr:"متبقي 208.5 ريال من الشحن المجاني",
+    }
+export const addressSectionContent = 
+    {
+        titleEn:"Address",
+        titleAr:"العنوان",
+        btnTextEn:"Change",
+        btnTextAr:"تغيير",
+        textEn:"Kiro",
+        textAr:"Kiro",
+        addressEn:" Dubai, Khalid Bin Waleed - الامارات العربية المتحدة دبي",
+        addressAr:" Dubai, Khalid Bin Waleed - الامارات العربية المتحدة دبي",
+        contactEn:"+201200268302",
+        contactAr:"+201200268302",
+    }
+export const paymentMethodsContent = 
+    {
+        paymentMethodTitleEn:"Payment Method",
+        paymentMethodTitleAr:"طريقة الدفع",
+        paymentWhenRecievingEn:"Payment When Recieving",
+        paymentWhenRecievingAr:"الدفع عند الإستلام ",
+        debitCreditCardEn:"Debit/Credit Card",
+        debitCreditCardAr:"بطاقه السحب الألي / الأئتمان",
+        myWalletEn:"My Wallet",
+        myWalletAr:"محفظتي",
+        kNetEn:"K Net",
+        kNetAr:"كي نت",
+        tamaraEn:"Tamara",
+        tamaraAr:"تمارا",
+        payIn4PaymentsEn:"Pay In 4 Payments",
+        payIn4PaymentsAr:"أدفع علي 4 دفعات",
+        payPalEn:"PayPal",
+        payPalAr:"Paypal",
+        applePayEn:"Apple Pay",
+        applePayAr:"Apple Pay",
+        googlePayEn:"Google Pay",
+        googlePayAr:"Google Pay",
+        sAR28En:"SAR 28+",
+        sAR28Ar:"ريال 28",
+    }
+export const orderSummaryContent = 
+    {
+        orderSummaryEn:"Order Summary",
+        orderSummaryAr:"ملخص الطلب",
+        titleEn:"Shipping Information",
+        titleAr:"معلومات",
+        productPriceEn:"Price Of Products",
+        productPriceAr:"سعر المنتجات",
+        shippingFeeEn:"Shipping Fees",
+        shippingFeeAr:"رسوم الشحن",
+        discountEn:"Discount",
+        discountAr:"الخصم",
+        totalEn:"Total",
+        totalAr:"الأجمالي ",
+        currencyRiyalsEn:"Riyals",
+        currencyRiyalsAr:"ريال",
+        haveDiscountCodeEn:" Do You Have A Discount Code Or Coupon? Enter Now",
+        haveDiscountCodeAr:"لديك كود خصم او قسيمة ؟ ادخلة الان",
+        urlEn:'#',
+        urlAr:'#',
+        enterTheDiscountCouponEn:"Enter The Discount Coupon",
+        enterTheDiscountCouponAr:"اكتب الكوبون هنا",
+        completeTheRequestEn:"Complete The Request",
+        completeTheRequestAr:"إتمام الطلب",
+        orderCompleteUrlEn:"/order-complete",
+        orderCompleteUrlAr:"/order-complete",
+    }
+export const paymentSectionContent = 
+    {
+        step1En:"Address",
+        step1Ar:"العنوان",
+        step2En:"CheckOut",
+        step2Ar:"الدفع",
+        step3En:"Complete",
+        step3Ar:"مكتمل",        
+        backTextEn:'Back',
+        backTextAr:'رجوع',
+    
+    }

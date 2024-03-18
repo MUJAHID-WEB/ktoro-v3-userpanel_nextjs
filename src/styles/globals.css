@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply font-arabic p-0 m-0 outline-0 box-border;
+    }
+    body {
+        @apply overflow-x-hidden bg-ash-100;
+    }
+    img {
+        @apply align-middle;
+    }
+    a {
+        @apply no-underline hover:no-underline;
+    }
+}
+.dropDownShadow {
+    box-shadow: 0px 30px 60px rgba(32, 56, 85, 0.15);
+}
+@layer components {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+/* track order timeline  */
+.step-item {
+    @apply relative flex flex-col justify-center items-center xl:w-[274px] lg:w-[220px] md:w-[180px] w-[100px];
+}
+.step-item:not(:first-child):before {
+    @apply content-[''] bg-slate-200 absolute w-full h-[3px] right-2/4  -translate-y-2/4;
+}
+.step {
+    @apply w-10 xl:h-10 lg:h-10 md:h-6 h-2 flex items-center justify-center z-10 relative bg-white rounded-full font-semibold text-white;
+}
+.active .step {
+    @apply bg-sky-600;
+}
+.complete .step {
+    @apply bg-white;
+}
+.complete p {
+    @apply text-white;
+}
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+    @apply bg-green-600;
+}
+
+/* swiper slider custom css  */
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #333;
+    width: 15px;
+    height: 5px;
+}
+
+/* target all bullets */
+span.swiper-pagination-bullet {
+    background: #333;
+    width: 5px;
+    height: 5px;
+    border-radius: 0.5rem;
+    opacity: 1;
+}
+
+/* swiper next button  */
+.swiper-button-next {
+    width: 50px !important;
+    height: 50px !important;
+    background: #fff !important;
+    border-radius: 50% !important;
+    fill: #fff;
+    filter: drop-shadow(0px 2px 11px rgba(0, 0, 0, 0.15));
+}
+
+.swiper-button-next::after {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #000;
+}
+
+/* swiper prev button  */
+.swiper-button-prev {
+    width: 50px !important;
+    height: 50px !important;
+    background: #fff !important;
+    border-radius: 50% !important;
+    fill: #fff;
+    filter: drop-shadow(0px 2px 11px rgba(0, 0, 0, 0.15));
+}
+
+.swiper-button-prev::after {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #000;
+}
+
+.step-bar {
+    @apply absolute top-[33%] md:top-[35%] right-9 md:right-14 -translate-y-1/2 w-[75%] md:w-[85%] lg:w-[82%] xl:w-[90%] h-1 bg-slate-200 z-0;
+}
